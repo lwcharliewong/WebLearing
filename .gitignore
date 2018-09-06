@@ -1,0 +1,20 @@
+﻿.DS_Store
+*.log
+#忽略.o或.a结尾的文件
+*.[oa]
+#忽略~结尾的文件
+*~
+#不跟踪.a结尾的文件
+*.a
+#跟踪lib.a，即使你在前面已经设置不跟踪.a结尾的文件
+!lib.a
+#之忽略当前文件夹下的TODO文件，而不是 subdir/TODO
+/TODO
+#忽略build/文件夹下的所有文件
+build/
+#忽略doc/notes.txt, 而不是doc/server/arch.txt
+doc/*.txt
+#忽略doc和其子文件夹下的所有pdf文件
+doc/**/*.pdf
+.idea/
+.vscode/
