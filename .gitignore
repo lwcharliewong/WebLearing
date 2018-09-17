@@ -18,3 +18,4 @@ doc/*.txt
 doc/**/*.pdf
 .idea/
 .vscode/
+_notes/
