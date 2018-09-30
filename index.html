@@ -1,41 +1,135 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Charlie' Coffee Shop</title>
-      <style type="text/css">
-        body{
-          background-color: #d2b48c;
-          margin-left: 20%;
-          margin-right: 20%;
-          border: 2px dotted black;
-          padding: 10px 10px 10px 10px;
-          font-family: sans-serif;
-        }
-      
-      </style>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Starbuzz Coffee</title>
+    <link rel="stylesheet" type="text/css" href="starbuzz/starbuzz.css">
+</head>
 
-    <body>
-      <h1 title="top">欢迎来到Charlie's Coffee</h1>
+<body>
+<header class="top">
+    <img id="headerLogo" src="starbuzz/images/headerLogo.gif" alt="Starbuzz Coffee logo image">
+    <img id="headerSlogan" src="starbuzz/images/headerSlogan.gif"
+         alt="Providing all the caffeine you need power your life.">
+</header>
 
-      <h2>混合咖啡(House Blend) ,￥20</h2>
-      <p>由墨西哥、玻利维亚和危地马拉的咖啡混合而成。</p>
+<div id="award">
+    <img src="starbuzz/images/award.gif" alt="Roaster of the Year award">
+</div>
+<nav>
+    <ul>
+        <li class="selected"><a href="./index.html">HOME</a></li>
+        <li><a href="starbuzz/blog.html">BLOG</a></li>
+        <li><a href="">INVENTIONS</a></li>
+        <li><a href="starbuzz/recipes.html">RECIPES</a></li>
+        <li><a href="">LOCATIONS</a></li>
+    </ul>
+</nav>
 
-       <h2>摩卡(Mocha Caffe Latte) ,￥17</h2>
-      <p>浓缩咖啡，蒸牛奶和巧克力糖浆，奶香与巧克力的丝滑萦绕齿间。</p>
+<div id="tableContainer">
+    <div id="tableRow">
+        <section id="drinks">
+            <h1>BEVERAGES</h1>
+            <p>House Blend, $1.49</p>
+            <p>Mocha Cafe Latte, $2.35</p>
+            <p>Cappuccino, $1.89</p>
+            <p>Chai Tea, $1.85</p>
+            <h1>ELIXIRS</h1>
+            <p>
+                We proudly serve elixirs brewed by our friends
+                at the Head First Lounge.
+            </p>
+            <p>Green Tea Cooler, $2.99</p>
+            <p>Raspberry Ice Concentration, $2.99</p>
+            <p>Blueberry Bliss Elixir, $2.99</p>
+            <p>Cranberry Antioxidant Blast, $2.99</p>
+            <p>Chai Chiller, $2.99</p>
+            <p>Black Brain Brew, $2.99</p>
+        </section>
 
-       <h2>卡布奇诺（Cappuccino） ,￥22</h2>
-      <p>浓咖啡、蒸牛奶和牛奶泡沫的混合物，让牛奶泡沫挑逗你的舌尖吧。</p>
+        <section id="main">
+            <h1>QUALITY COFFEE, QUALITY CAFFEINE</h1>
+            <p>
+                At Starbuzz Coffee, we are dedicated to filling all your caffeine needs through our
+                quality coffees and teas. Sure, we want you to have a great cup of coffee and a great
+                coffee experience as well, but we're the only company that actively monitors and
+                optimizes caffeine levels. So stop by and fill your cup, or order online with our new Bean
+                Machine online order form, and get that quality Starbuzz coffee that you know will meet
+                your caffeine standards.
+            </p>
+            <p>
+                And, did we mention <em>caffeine</em>? We've just started funding the guys doing all
+                the wonderful research at the <a href="http://buzz.headfirstlabs.com"
+                                                 title="Read all about caffeine on the Buzz">Caffeine Buzz</a>.
+                If you want the latest on coffee and other caffeine products,
+                stop by and pay them a visit.
+            </p>
+            <h1>OUR STORY</h1>
+            <p>
+                "A man, a plan, a coffee bean". Okay, that doesn't make a palindrome, but it resulted
+                in a damn good cup of coffee. Starbuzz's CEO is that man, and you already know his
+                plan: a Starbuzz on every corner.
+            </p>
+            <p>In only a few years he's executed that plan and today
+                you can enjoy Starbuzz just about anywhere. And, of course, the big news this year
+                is that Starbuzz teamed up with Head First readers to create Starbuzz's Web presence,
+                which is growing rapidly and helping to meet the caffeine needs of a whole new set of
+                customers.
+            </p>
+            <h1>STARBUZZ COFFEE BEVERAGES</h1>
+            <p>
+                We've got a variety of caffeinated beverages to choose
+                from at Starbuzz, including our
+                <a href="starbuzz/recipes.html#house" title="House Blend">House Blend</a>,
+                <a href="starbuzz/recipes.html#mocha" title="Mocha Cafe Latte">Mocha Cafe Latte</a>,
+                <a href="starbuzz/recipes.html#cappuccino" title="Cappuccino">Cappuccino</a>,
+                and a favorite of our customers,
+                <a href="starbuzz/recipes.html#chai" title="Chai Tea">Chai Tea</a>.
+            </p>
+            <p>
+                We also offer a variety of coffee beans, whole or ground, for you to
+                take home with you. Order your coffee today using our online
+                <a href="starbuzz/styledform.html" title="form.html">Bean Machine</a>, and take
+                the Starbuzz Coffee experience home.
+            </p>
+        </section>
+        <aside>
+            <p class="beanheading">
+                <img src="starbuzz/images/bag.gif" alt="Bean Machine bag">
+                <br>
+                ORDER ONLINE
+                with the
+                <a href="starbuzz/styledform.html">BEAN MACHINE</a>
+                <br>
+                <span class="slogan">
+      FAST <br>
+      FRESH <br>
+      TO YOUR DOOR <br>
+    </span>
+            </p>
+            <p>
+                Why wait? You can order all our fine coffees right from the Internet with our new,
+                automated Bean Machine. How does it work? Just click on the Bean Machine link,
+                enter your order, and behind the scenes, your coffee is roasted, ground
+                (if you want), packaged, and shipped to your door.
+            </p>
+        </aside>
+    </div>
+</div>
 
-      <h2 id="chai">印度茶(Chai Tea)，￥15</h2>
-      <p>一种用红茶、香料、牛奶和蜂蜜制成的辛辣饮料。</p>
-
-      <p>
-        <a href="./Charlie's Coffee Shop/mission.html" title="了解 Charlie's coffe shop 宗旨">本店宗旨</a>
-        <br>
-        <a target="_blank" href="./Charlie's Coffee Shop/About Coffee.html#Coffee" title="了解咖啡的成分">关于咖啡</a>
-      </p>
-
-      
-    </body>
+<div id="coupon">
+    <a href="starbuzz/freecoffee.html" title="Click here to get a free coffee ticket">
+        <img src="starbuzz/images/ticket.gif" alt="Starbuzz coupon ticket">
+    </a>
+</div>
+<footer class="bottom">
+    &copy; 2018, Starbuzz Coffee
+    <br>
+    All trademarks and registered trademarks appearing on
+    this site are the property of their respective owners.
+    <br>
+    <a href="http://www.miitbeian.gov.cn/" class="icp" target="_blank">粤ICP备18117213号</a>
+</footer>
+</body>
 </html>
+
