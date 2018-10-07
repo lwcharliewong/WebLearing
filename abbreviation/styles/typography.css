@@ -1,0 +1,39 @@
+body{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+}
+abbr{
+    text-decoration: none;
+    border: 0;
+    font-style: normal;
+}
+
+nav{
+    background-color: #9B756D;
+    margin: 10px 10px 10px 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav ul li{
+    display: inline;
+    padding: 5px 10px;
+}
+
+nav ul li:hover{
+    background-color: yellow;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover{
+    color: red;
+}

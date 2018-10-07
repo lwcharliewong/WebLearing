@@ -14,11 +14,11 @@
 
 <nav>
     <ul>
-        <li class="selected"><a href="../index.html">HOME</a></li>
+        <li><a href="../index.html">HOME</a></li>
         <li><a href="blog.html">BLOG</a></li>
         <li><a href="">INVENTIONS</a></li>
-        <li><a href="recipes.html">RECIPES</a></li>
-        <li><a href="">LOCATIONS</a></li>
+        <li class="selected"><a href="recipes.html">RECIPES</a></li>
+        <li><a href="locations.html">LOCATIONS</a></li>
     </ul>
 </nav>
 
@@ -44,11 +44,18 @@
         </section>
 
         <section id="recipes">
+            <p id="detailed">
+                <img id="placeholder" src="images/drinks.gif" alt="my image gallery"/>
+            </p>
+            <p id="description">Choose an image.</p>
+
             <h1>Our Elixirs</h1>
 
             <h2>Green Tea Cooler</h2>
             <p class="greentea">
-                <img src="./images/green.jpg" alt="Green Tea Cooloer">
+                <a href="images/green.jpg" title="Delicious green tea" onclick="showPic(this); return false;">
+                    <img src="./images/green.gif" alt="Green Tea Cooloer">
+                </a>
                 Chock full of vitamins and minerals, this elixir
                 combines the healthful benefits of green tea with
                 a twist of chamomile blossoms and ginger root.
@@ -56,7 +63,9 @@
 
             <h2>Raspberry Ice Concentration</h2>
             <p class="raspberry">
-                <img src="./images/lightblue.jpg" alt="Raspberry Ice Concentration">
+                <a href="images/lightblue.jpg" title="I'm raspberry" onclick="showPic(this); return false;">
+                    <img src="./images/lightblue.gif" alt="Raspberry Ice Concentration">
+                </a>
                 Combining raspberry juice with lemon grass,
                 citrus peel and rosehips, this icy drink
                 will make your mind feel clear and crisp.
@@ -64,7 +73,9 @@
 
             <h2>Blueberry Bliss Elixir</h2>
             <p class="blueberry">
-                <img src="./images/blue.jpg" alt="Blueberry Bliss Elixir">
+                <a href="images/blue.jpg" title="Drink me,please!" onclick="showPic(this); return false;">
+                    <img src="./images/blue.gif" alt="Blueberry Bliss Elixir">
+                </a>
                 Blueberries and cherry essence mixed into a base
                 of elderflower herb tea will put you in a relaxed
                 state of bliss in no time.
@@ -72,7 +83,10 @@
 
             <h2>Cranberry Antioxidant Blast</h2>
             <p>
-                <img src="./images/red.jpg" alt="Cranberry Antioxidant Blast">
+                <a href="images/red.jpg" title="If you don't drink me, you'll regret it"
+                   onclick="showPic(this); return false;">
+                    <img src="./images/red.gif" alt="Cranberry Antioxidant Blast">
+                </a>
                 Wake up to the flavors of cranberry and hibiscus
                 in this vitamin C rich elixir.
             </p>
@@ -87,11 +101,12 @@
                 <a href="styledform.html">BEAN MACHINE</a>
                 <br>
                 <span class="slogan">
-      FAST <br>
-      FRESH <br>
-      TO YOUR DOOR <br>
-    </span>
+                    FAST <br>
+                    FRESH <br>
+                    TO YOUR DOOR <br>
+                </span>
             </p>
+
             <p>
                 Why wait? You can order all our fine coffees right from the Internet with our new,
                 automated Bean Machine. How does it work? Just click on the Bean Machine link,
@@ -110,5 +125,7 @@
     <br>
     <a href="http://www.miitbeian.gov.cn/" class="icp" target="_blank">粤ICP备18117213号</a>
 </footer>
+
+<script src="scripts/showPic.js"></script>
 </body>
 </html>
